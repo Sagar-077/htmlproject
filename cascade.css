@@ -1,0 +1,134 @@
+body{
+  margin: 0;
+}
+div{
+  color:white;
+  background:#262525;
+  height:"200";
+width:auto;
+  line-height:"200";
+}
+div h1{
+  padding-right:20%;
+  padding-left:10%;
+  font-weight:bold;
+  font-size:50px;
+  font-family:sans-serif;
+  
+}
+div h1,form{
+display:inline;
+}
+form label input:hover{
+  box-shadow:2px 2px 2px dodgerblue;
+  padding:5px;
+  
+}
+form label{
+  margin:10px;
+}
+form{
+  margin-left:20px;
+}
+#gen{
+  color:white;
+  border:1px solid black;
+  padding:4px;
+  margin:10px;
+  background-color:#4b4949;
+  font-weight:bold;
+}
+section{
+height:70%;
+  width:50%;
+  font-size:25px;
+  float:left;
+  padding:3% 5%;
+  position:relative;
+  
+}
+article{                   
+width:40%;
+float:right;
+}
+form.example h1{
+font-family:helvetica;  
+  font-size:40px;
+}
+section img{                  
+
+height:300px;
+width:100%;
+}
+form.example p{
+  font-size:20px;
+}
+form.form3 input{
+  padding:5px;
+  margin: 0;
+  margin-bottom:8px;
+}
+.form3 input:first-child{
+  margin-right:8px;
+}
+main p{
+  font-weight:bold;
+  color:#aaa;
+  font-size:19px;
+  font-family:helvetica;
+}
+main select{
+  padding:2px;
+  margin-left:3px;
+}
+main {
+  font-size:19px;
+  font-family:helvetica;
+  font-weight:normal;
+}
+p#pirpe{
+  font-size:12px;
+}
+
+a:link{
+  text-decoration:none;
+  color:#162cae;
+  font-size:12px;
+}
+a:hover{
+  text-decoration:underline;
+}
+p#karan input{
+  font-family:helvetica;
+ background-color:#29a329;
+  color:white;
+  font-size:22px;
+  padding:3px 40px;
+  border-radius:3px;
+  border:1px solid black;
+}
+@media screen and (max-width:500px){       
+div h1{
+  padding-right:20%;
+  padding-left:10%;
+  font-weight:bold;
+  font-size:50px;
+  font-family:sans-serif;
+  
+}
+div h1,form{
+display:inline;
+}
+section img{
+
+height:120px;
+width:100%;
+}
+form form3 input{
+width:120px;}
+}
+P#resc{
+  float:left;
+  width:40%;
+  font-size:12px;
+}
